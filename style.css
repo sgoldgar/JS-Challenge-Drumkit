@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:500');
+
+html {
+  font-size: 10px;
+  background: #BAD5F0;
+}
+
+h1{
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 3em;
+  color: #3d7e60;
+  letter-spacing: 3px;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.drumkit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.instructions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 55rem;
+}
+
+.key {
+  border: .4rem solid #5D83D6;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  transition: all .07s ease;
+  width: 8rem;
+  height: 8rem;
+  text-align: center;
+  color: white;
+  background: #F97580;
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #3d7e60;
+  box-shadow: 0 0 1rem #3d7e60;
+}
+
+kbd {
+  display: block;
+  margin-top: 5px;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #EDE288;
+}
+
+
+#clap{
+  position: absolute;
+  transform: translateX(-25px)   translateY(350px);
+}
+
+#snare{
+  position: absolute;
+  transform: translateX(-90px) translateY(240px);
+  width: 7rem;
+  height: 7rem;
+}
+
+#hihat{
+  position: absolute;
+  transform: translateX(-160px) translateY(200px);
+  z-index: 1;
+  width: 5rem;
+  height:5rem;
+}
+
+#hihat kbd{
+  font-size: 2rem;
+}
+
+#kick{
+  position: absolute;
+  transform: translateX(50px) translateY(220px);
+  height: 9rem;
+  width: 9rem;
+}
+
+#kick kbd{
+  margin-top: 9px;
+}
+
+#tom{
+  position: absolute;
+  height: 7rem;
+  width: 7rem;
+  transform: translateX(30px) translateY(120px)
+}
+
+#ride{
+  position: absolute;
+  transform: translateX(-90px) translateY(130px);
+}
+
+#boom{
+  position: absolute;
+  transform: translateX(-40px) translateY(30px);
+}
+
+#openhat{
+  position: absolute;
+  transform: translateX(130px) translateY(130px);
+  height: 7rem;
+  width: 7rem;
+}
+
+#openhat kbd{
+  font-size: 3rem;
+}
+
+#tink{
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  transform: translateX(-160px) translateY(130px);
+}
+
+#tink kbd{
+  font-size: 2rem;
+  margin-top: 0;
+}
